@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #e5e5e5;
+
+}
+.hed {
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.flex1{
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.material-symbols-outlined{
+padding-left: 1px;
+padding-top: 15px;
+}
+
+.flex {
+    width: 500px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    max-width: fit-content;
+    margin-left: 25px;
+}
+
+.flex h1 {
+    color: #000;
+}
+
+.flex .btn1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.box {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid aqua;
+    line-height: 60px;
+    text-align: left;
+    color: #000;
+    padding-left: 20px;
+
+}
+
+.menu {
+    width: 100%;
+    line-height: 30px;
+    justify-content: center;
+    display: none;
+    transform: translate(+30%);
+}
+
+.tab {
+    /* transform: translate(+50%); */
+
+    background-color: white;
+    border-radius: 10px;
+padding-top: 30px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+}
+
+
+.h2 {
+    font-size: 35px;
+    color: #000;
+}
+
+.p {
+    font-size: 12px;
+    color: #000;
+}
+
+.h5 {
+    font-size: 20px;
+}
+
+
+input {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
+
+.btn2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+
+.x {
+    margin-left: 10px;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    border-color: white;
+}
